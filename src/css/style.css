@@ -2,8 +2,8 @@ body {
     background-color: rgb(216, 238, 238);
 }
 .first {
-    height: 400px;
-    width: 350px;
+    height: 800px;
+    width: 500px;
     background-color: rgb(135, 135, 235);
     position: fixed;
     left: 50%;
@@ -44,7 +44,8 @@ form {
     top: 25%;
     left: 50%;
     transform: translatex(-50%);
-    width: 300px;
+    background-color: blue;
+    width: 350px;
     height: 300px;
 }
 .input {
@@ -80,6 +81,8 @@ form {
     width: 80px;
     font-size: 18px;
 }
+
+
 
 
 
