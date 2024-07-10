@@ -1,61 +1,70 @@
 body {
-    padding: 0;
     margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
-    background: url(/src/img/1669911752_15-kartinkin-net-p-makima-art-oboi-33.jpg);
-    background-size: 100% 100%;
-    background-attachment: fixed;
-
+    align-items: center;
 }
-
-.box-1 {
+.wrapper {
+    width: 300px;
+    height: 400px;
+    background: rgb(79, 40, 223);
+    text-align: center;
     position: fixed;
-    top: 50%;
+    top:50%;
     transform: translateY(-50%);
-    background: blue;
-    height: 500px;
-    width: 400px;
     border-radius: 40px;
+    box-shadow: 0 5px 15px black;
+    box-sizing: border-box;
+    padding: 0 30px;
     
 }
-.box-1 h1 {
-    text-align: center;
-    font-size: 30px;
+.wrapper h1 {
+    font-size: 40px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.input-box {
+
+.wrapper .box-input {
     width: 100%;
-    height: 50px;
+    height: 40px;
     margin: 30px 0;
     
-    
 }
-.input-box input {
+
+.box-input input {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    border-radius: 40px;
-    border: none;
-    background: black;
-    font-size: 16px;
     padding-left: 20px;
-    color: rgb(250, 0, 217);
-    text-align: center;
+    border-radius: 20px;
+    border: none;
+   
+    
 
 }
 
-.input-box input::placeholder {
+.box-input input::placeholder {
+    
+    font-size: 16px;
+    color: rgb(97, 99, 99);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-button {
+    margin-top: 40px;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background: rgb(4, 4, 165);
+}
+.main-button h2 {
+    margin: 0;
+    padding: 0;
     color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
-
-
-
-
-
-
-
-
-
 
 
 
