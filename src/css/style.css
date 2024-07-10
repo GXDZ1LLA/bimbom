@@ -2,8 +2,8 @@ body {
     background-color: rgb(216, 238, 238);
 }
 .first {
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 350px;
     background-color: rgb(135, 135, 235);
     position: fixed;
     left: 50%;
@@ -44,11 +44,45 @@ form {
     top: 25%;
     left: 50%;
     transform: translatex(-50%);
+    width: 300px;
+    height: 300px;
 }
 .input {
     width: 250px;
     height: 25px;
-    
 }
+
+.input-username {
+    position: fixed;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.input-password {
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.input-repeat-password {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.button-1 {
+    position: fixed;
+    top: 75%;
+    left: 50%;
+    transform: translatex(-50%);
+    height: 30px;
+    width: 80px;
+    font-size: 18px;
+}
+
+
+
+
 
 
