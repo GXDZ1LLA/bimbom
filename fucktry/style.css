@@ -1,0 +1,62 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: url(/src/img/1669911752_15-kartinkin-net-p-makima-art-oboi-33.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+
+.box-1 {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    background: blue;
+    height: 500px;
+    width: 400px;
+    border-radius: 40px;
+    
+}
+.box-1 h1 {
+    text-align: center;
+    font-size: 30px;
+}
+.input-box {
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    
+    
+}
+.input-box input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    border: none;
+    background: black;
+    font-size: 16px;
+    padding-left: 20px;
+    color: rgb(250, 0, 217);
+    text-align: center;
+
+}
+
+.input-box input::placeholder {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
