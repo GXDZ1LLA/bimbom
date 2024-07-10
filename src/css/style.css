@@ -2,8 +2,8 @@ body {
     background-color: rgb(216, 238, 238);
 }
 .first {
-    height: 800px;
-    width: 500px;
+    height: 400px;
+    width: 350px;
     background-color: rgb(135, 135, 235);
     position: fixed;
     left: 50%;
@@ -30,6 +30,7 @@ body {
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
 }
+
 .second-2 {
     height: 20px;
     margin-left: 20px;
@@ -39,18 +40,14 @@ body {
     text-align: center;
     line-height: 20px;
 }
+
 form {
     position: fixed;
     top: 25%;
     left: 50%;
     transform: translatex(-50%);
-    background-color: blue;
-    width: 350px;
-    height: 300px;
-}
-.input {
-    width: 250px;
-    height: 25px;
+    width: 300px;
+    height: 280px;
 }
 
 .input-username {
@@ -65,11 +62,23 @@ form {
     left: 50%;
     transform: translatex(-50%);
 }
+
 .input-repeat-password {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translatex(-50%);
+}
+
+.input {
+    width: 220px;
+    height: 25px;
+}
+
+.icons {
+    position: fixed;
+    height: 100%;
+
 }
 
 .button-1 {
@@ -80,14 +89,11 @@ form {
     height: 30px;
     width: 80px;
     font-size: 18px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
 }
-
-.icons {
-    position: fixed;
-    height: 100%;
-    
-}
-
 
 
 
