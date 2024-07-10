@@ -16,7 +16,7 @@ body {
 .second-1 {
     height: 50px;
     width: 250px;
-    background-color: rgb(216, 238, 238);
+    background-color: rgb(135, 135, 235);
     position: fixed;
     left: 50%;
     top: 10%;
@@ -89,10 +89,7 @@ form {
     height: 30px;
     width: 80px;
     font-size: 18px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-bottom-left-radius: 50px;
+    
 }
 
 
