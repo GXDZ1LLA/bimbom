@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(216, 238, 238);
+}
+.first {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(135, 135, 235);
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    box-shadow: 0 0px 15px black;
+    border: 2px solid rgb(6, 55, 146);
+}
+.second-1 {
+    height: 50px;
+    width: 250px;
+    background-color: rgb(216, 238, 238);
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    transform:translate(-50%, -50%);
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    border: 2px solid rgb(6, 55, 146);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.second-2 {
+    height: 20px;
+    margin-left: 20px;
+    position: fixed;
+    top: 20%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+form {
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.input {
+    width: 250px;
+    height: 25px;
+    
+}
+
+
