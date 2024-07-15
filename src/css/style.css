@@ -1,116 +1,99 @@
-body {
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .wrapper {
-    width: 300px;
-    height: 400px;
-    background: rgb(79, 40, 223);
-    text-align: center;
     position: fixed;
-    top:50%;
+    top: 50%;
     transform: translateY(-50%);
+    width: 350px;
+    height: 450px;
+    background: rgb(124, 124, 221);
     border-radius: 40px;
-    box-shadow: 0 5px 15px black;
-    box-sizing: border-box;
-    padding: 0 30px;
-    
+    box-shadow: 0 2px 6px rgb(124, 124, 221);
+    padding: 0 20px;
 }
 
-.wrapper h1 {
-    font-size: 40px;
-    color: white;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.wrapper .box-input {
+.head {
     width: 100%;
-    height: 40px;
-    margin: 30px 0;
-    
+    text-align: center;
 }
 
-.box-input input {
-    box-sizing: border-box;
+.head h1 {
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.input-box {
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.input-box input {
     width: 100%;
     height: 100%;
+    border-radius: 30px;
+    border: none;
     padding-left: 20px;
-    border-radius: 20px;
-    border: none;
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.box-input input::placeholder {
-    font-size: 16px;
-    color: rgb(97, 99, 99);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.box-button {
-    position: sticky;
-    top: 84%;
-    width: 100%;
-}
-
-.box-button .main-button {
-    width: 100%;
-    height: 40px;
-    border-radius: 20px;
-    border: none;
-    background: rgb(4, 4, 165);
-    
-}
-
-.main-button h2 {
-    margin: 0;
+.input-box input::placeholder {
     font-size: 20px;
-    padding: 0;
+}
+
+.button-login {
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+
+}
+
+.button-login button {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    border: none;
+}
+
+.button-login h1 {
+    font-size: 30px;
+    color: rgb(124, 124, 221);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.question {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.question h1 {
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.box-question {
-    width: 100px;
-}
-
-
-.box-sign-up {
-    margin-top: 80px;
-    margin-left: 0px;
-}
-
-.box-sign-up h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
-    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.sign-up-list {
+.question a {
+    color: white;
     text-decoration: none;
-    
+    font-size: 20px;
 }
 
-.sign-up-list:link {
-    color: white;
-}
 
-.sign-up-list:hover {
-    color: white;
-}
 
-.sign-up-list:active {
-    color: white;
-}
-
-.sign-up-list:visited {
-    color: white;
-}
 
 
 
