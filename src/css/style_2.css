@@ -68,8 +68,9 @@ body {
     border: none;
 }
 
-.button-login h1 {
+.button-login a {
     font-size: 30px;
+    text-decoration: none;
     color: rgb(124, 124, 221);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
